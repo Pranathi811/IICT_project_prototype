@@ -1,8 +1,8 @@
 ==================================================
       ML CHEMICAL PROCESS YIELD METRICS REPORT    
 ==================================================
-R-squared (R2) Score:  0.76552 (Percent variance explained: 76.55%)
-Mean Absolute Error (MAE): 2.5765 %
-Mean Squared Error (MSE):  11.2517 %^2
-Root Mean Squared Error (RMSE): 3.3544 %
+R-squared (R2) Score:  0.82772 (Percent variance explained: 82.77%)
+Mean Absolute Error (MAE): 2.2456 %
+Mean Squared Error (MSE):  8.2671 %^2
+Root Mean Squared Error (RMSE): 2.8753 %
 ==================================================

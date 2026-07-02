@@ -19,4 +19,4 @@ Thumbs.db
 *.log
 
 # Jupyter
-.ipynb_checkpoints/
+.ipynb_checkpoints/results/model.pt 

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import torch
 
-from model import ChemicalYieldPredictor
+from src.model import ChemicalYieldPredictor
 
 def load_metrics_and_plot(project_root, train_loss, val_loss):
     """

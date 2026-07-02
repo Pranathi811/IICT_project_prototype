@@ -111,7 +111,7 @@ def train_model(model, train_loader, val_loader, epochs=200, base_lr=0.005, pati
     return model, train_loss_history, val_loss_history
 
 if __name__ == '__main__':
-    from model import ChemicalYieldPredictor
+    from src.model import ChemicalYieldPredictor
     # Import the function from data_preprocessing
     from data_preprocessing import preprocess_and_split_data 
 
