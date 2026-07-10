@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 from src.predict import predict_yield
+from src.optimizer import recommend_conditions
 
 st.set_page_config(page_title="Chemical Yield Predictor", layout="centered")
 
@@ -21,4 +22,7 @@ if st.button("Predict Yield"):
     
     predicted_yield = predict_yield(inputs)
 
-    st.success(f"✅ Predicted Yield: {predicted_yield:.2f}%")
+# Keep the prediction between 0 and 100
+predicted_yield = max(0, min(predicted_yield, 100))
+
+st.success(f"✅ Predicted Yield: {predicted_yield:.2f}%")
